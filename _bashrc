@@ -145,12 +145,8 @@ if [ -x "/Applications/MacVim.app/Contents/MacOS/Vim" ]; then
     PATH=/Applications/MacVim.app/Contents/MacOS:$PATH
 fi
 
-#alias vim="$vim"
-#vim=`type -P vim`
-#if [ "$vim" == "" ]; then
-#    vim="gvim -v"
-#fi
-#echo $vim
+#PATH=/opt/local/bin:$PATH
+
 
 PYTHONSTARTUP=~/.pythonrc.py
 export PYTHONSTARTUP

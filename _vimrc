@@ -322,3 +322,6 @@ let g:tagbar_width = 30
 "
 """""""""""""""""""""""""""""""
 "let g:django_projects = '$HOME/Documents/django_projects'
+
+" Twitter Account
+let twitvim_enable_python = 1

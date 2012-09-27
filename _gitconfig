@@ -3,16 +3,16 @@
     email = wanglun02@gmail.com
 
 [color]
-    diff = auto
+	diff = true
     status = auto
     branch = auto
-    ui = auto
+	ui = true
 
 [push]
     default = matching
 
 [core]
-    editor = vim
+	editor = /usr/bin/vi
     pager = less -R
 	excludesfile = /Users/ryan/.gitignore_global
 
