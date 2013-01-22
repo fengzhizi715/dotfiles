@@ -141,9 +141,9 @@ fi
 
 
 # osx vim
-if [ -x "/Applications/MacVim.app/Contents/MacOS/Vim" ]; then
-    PATH=/Applications/MacVim.app/Contents/MacOS:$PATH
-fi
+#if [ -x "/Applications/MacVim.app/Contents/MacOS/Vim" ]; then
+#    PATH=/Applications/MacVim.app/Contents/MacOS:$PATH
+#fi
 
 #PATH=/opt/local/bin:$PATH
 
@@ -165,8 +165,8 @@ parse_svn_repository_root() {
   svn info 2>/dev/null | sed -ne 's#^Repository Root: ##p'
 }
 set -o emacs
-export EDITOR="$vim"
-export GIT_EDITOR="$vim"
+#export EDITOR="$vim"
+#export GIT_EDITOR="$vim"
 
 
 # SET LS_COLORS
@@ -177,3 +177,5 @@ export LSCOLORS=gxBxhxDxfxhxhxhxhxcxcx
 export PS1="$PS1\$(parse_git_branch)\$(parse_svn_branch) "
 
 alias pngcrush="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/pngcrush"
+
+export NERV="Hello!!"

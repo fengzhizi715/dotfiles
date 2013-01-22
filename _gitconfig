@@ -1,6 +1,6 @@
 [user]
 	name = Ryan Wang
-    email = wanglun02@gmail.com
+	email = wanglun02@gmail.com
 
 [color]
 	diff = true
@@ -12,7 +12,7 @@
     default = matching
 
 [core]
-	editor = /usr/bin/vi
+	editor = /usr/bin/vim
     pager = less -R
 	excludesfile = /Users/ryan/.gitignore_global
 
@@ -29,3 +29,9 @@
     lola = log --graph --decorate --pretty=oneline --abbrev-commit --all
     ls = ls-files
 
+[difftool "sourcetree"]
+	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
+	path = 
+[mergetool "sourcetree"]
+	cmd = /Applications/SourceTree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
+	trustExitCode = true
