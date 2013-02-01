@@ -8,7 +8,7 @@
 # for ssh logins, install and configure the libpam-umask package.
 #umask 022
 
-TZ='America/Chicago'; export TZ
+TZ='Asia/Shanghai'; export TZ
 
 # if running bash
 if [ -n "$BASH_VERSION" ]; then
@@ -22,3 +22,18 @@ fi
 if [ -d "$HOME/bin" ] ; then
     PATH=$HOME/bin:"$PATH"
 fi
+
+export PATH=/Users/ryan/bin/Sencha/Cmd/3.0.0.250:$PATH
+
+export SENCHA_CMD_3_0_0="/Applications/Sencha/Cmd/3.0.0.250"
+
+export PATH=/usr/local/Cellar/SenchaCmd/Sencha/Cmd/3.0.0.250:$PATH
+
+
+
+
+export PATH=/Applications/Sencha/Cmd/3.0.0.250:$PATH
+
+export PATH=/Applications/SenchaSDKTools-2.0.0-beta3:$PATH
+
+export SENCHA_SDK_TOOLS_2_0_0_BETA3="/Applications/SenchaSDKTools-2.0.0-beta3"
