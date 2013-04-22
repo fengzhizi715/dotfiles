@@ -1,6 +1,4 @@
 [user]
-	name = Ryan Wang
-	email = wanglun02@gmail.com
 
 [color]
 	diff = true
@@ -12,7 +10,7 @@
     default = matching
 
 [core]
-	editor = /usr/bin/vim
+	editor = /usr/local/bin/vim
     pager = less -R
 	excludesfile = /Users/ryan/.gitignore_global
 
@@ -35,3 +33,6 @@
 [mergetool "sourcetree"]
 	cmd = /Applications/SourceTree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
 	trustExitCode = true
+[user]
+	name = Ryan Wang
+	email = wanglun02@gmail.com
