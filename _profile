@@ -22,3 +22,9 @@ fi
 if [ -d "$HOME/bin" ] ; then
     PATH=$HOME/bin:"$PATH"
 fi
+
+export iOSOpenDevPath=/opt/iOSOpenDev
+export iOSOpenDevDevice=
+export PATH=/opt/iOSOpenDev/bin:$PATH
+
+

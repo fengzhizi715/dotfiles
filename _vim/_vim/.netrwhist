@@ -1,7 +1,8 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =5
+let g:netrw_dirhist_cnt =6
 let g:netrw_dirhist_1='/Users/ryan/Documents/Workspace/JJZXAppAndroid'
 let g:netrw_dirhist_2='/usr/local'
 let g:netrw_dirhist_3='/usr/local/Cellar/ettercap/0.7.5.3/share/ettercap'
 let g:netrw_dirhist_4='/usr/local/etc/ettercap'
 let g:netrw_dirhist_5='/Users/ryan/Documents/AutoShow/AutoShow/res/AutoShowModels.xcdatamodeld'
+let g:netrw_dirhist_6='/Users/ryan/android-calendar-view-read-only'
